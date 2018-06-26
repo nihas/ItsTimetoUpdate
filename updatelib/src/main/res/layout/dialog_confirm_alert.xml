@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="8sp">
+
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/tvIcon"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:padding="10dp"
+        android:layout_marginBottom="10dp"/>
+
+
+    <TextView
+        android:fontFamily="@font/montserrat_regular"
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:gravity="center"
+        android:text="LOCATION SERVICE"
+        android:textColor="#000000" />
+
+    <TextView
+        android:fontFamily="@font/montserrat_regular"
+        android:id="@+id/tvMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:gravity="center"
+        android:text="To access this feature. Testdrive App need to know your approximate location. Turn location services ON from your Android phone. cool?"
+        android:textColor="#808080" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#cdcdcd"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:fontFamily="@font/montserrat_regular"
+            android:id="@+id/btNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:textColor="#c40505"
+            android:gravity="center"
+            android:text="NOPE" />
+
+        <TextView
+            android:fontFamily="@font/montserrat_regular"
+            android:id="@+id/btYes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:padding="10dp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textColor="#04bc23"
+            android:text="SURE" />
+
+    </LinearLayout>
+
+</LinearLayout>
